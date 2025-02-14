@@ -1,0 +1,14 @@
+{
+    "name": "钛合金墙",
+    "type": "Wall",
+    "health": 1180,
+    "description":"轻便但防御较高",
+    "size": 1,
+    "absorbLasers":false,
+    "requirements": [
+        "钛合金/8"
+    ],
+    "researchCostMultiplier": 1,
+    "category": "defense",
+    "research": "钢墙"
+}

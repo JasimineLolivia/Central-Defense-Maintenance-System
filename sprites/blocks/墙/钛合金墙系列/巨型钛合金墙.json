@@ -1,0 +1,14 @@
+{
+    "name": "巨型钛合金墙",
+    "type": "Wall",
+    "health": 15225,
+    "description":"轻便但防御较高",
+    "size": 3,
+    "absorbLasers":false,
+    "requirements": [
+        "钛合金/75"
+    ],
+    "researchCostMultiplier": 1,
+    "category": "defense",
+    "research": "大型钛合金墙"
+}
