@@ -1,0 +1,42 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	"name": "铁镍合金窑炉",
+	"description": "在矿热炉中采用碳热法将矿石还原成镍铁，随后进行精炼。",
+	"outputItem": {
+	"item": "铁镍合金", "amount": 1
+	},
+	"itemCapacity": 20,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 80,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			"DrawFlame"
+		]
+	},
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"power": 1.5,
+	"items": {
+		"items": [
+	{ "item": "镍", "amount": 3 },
+    { "item": "钢", "amount": 2 },
+	{ "item": "晶石", "amount": 2 }
+	]
+    }
+    },
+	"requirements": [
+	{ "item": "copper", "amount": 75 },
+	{ "item": "lead", "amount": 50 },
+	{ "item": "silicon", "amount": 75 },
+	{ "item": "graphite", "amount": 20 },
+	{ "item": "简单机械", "amount": 2 }
+	],
+	"category": "crafting",
+	"research": "工业"
+}

@@ -1,0 +1,25 @@
+{
+	"name": "然气井",
+	"type": "SolidPump",
+	"health": 350,
+	"size": 3,
+	"description": "向地下气田施压以提升燃气产量",
+	"details":"更高的效率意味着更大的燃爆事故",
+	"floating": true,
+	"hasPower": true,
+	"hasLiquids": true,
+	"liquidCapacity": 60,
+	"requirements": [
+	
+	],
+	"consumes": {
+		"power": 4
+	},
+	"pumpAmount": 0.4,
+	"rotateSpeed": 1.3,
+	"result": "天然气",
+	"baseEfficiency": 1,
+	"attribute": "oil",
+	"category": "production",
+	"research": "矿机"
+}

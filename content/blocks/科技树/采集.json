@@ -1,0 +1,11 @@
+{
+    "type": "Wall",
+    "name": "采集",
+    "description": "开采的基础",
+    "details": "",
+    "health": 0,
+    "buildVisibility": "hidden",
+    "alwaysUnlocked": true,
+    "research": "CDMS",
+    "size": 1
+}

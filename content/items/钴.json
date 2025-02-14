@@ -1,0 +1,10 @@
+{
+    "type":"material",
+	"name": "钴",
+	"color":"5C4F92FF",
+    "explosiveness":0,
+    "flammability":0,
+    "radioactivity":0,
+    "charge":3,
+    "research": "物品"
+}

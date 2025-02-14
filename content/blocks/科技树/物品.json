@@ -1,0 +1,11 @@
+{
+    "type": "Wall",
+    "name": "物品",
+    "description": "本模组所有的物品",
+    "details": "",
+    "health": 0,
+    "buildVisibility": "hidden",
+    "alwaysUnlocked": true,
+    "research": "CDMS",
+    "size": 1
+}

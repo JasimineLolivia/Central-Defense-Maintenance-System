@@ -1,0 +1,14 @@
+{
+	"name": "特种息钢块",
+	"description": "",
+	"details":"",
+	"type": "Wall",
+	"health": 3100,
+	"size": 2,
+	"absorbLasers":true,
+	"requirements": [
+	{ "item": "特种息钢", "amount": 24}
+	],
+	"category": "defense",
+	"research": ""
+}

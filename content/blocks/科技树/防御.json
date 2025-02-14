@@ -1,0 +1,11 @@
+{
+    "type": "Wall",
+    "name": "防御",
+    "description": "武装防御",
+    "details": "",
+    "health": 0,
+    "buildVisibility": "hidden",
+    "alwaysUnlocked": true,
+    "research": "CDMS",
+    "size": 1
+}

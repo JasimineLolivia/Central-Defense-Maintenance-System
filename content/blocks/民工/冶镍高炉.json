@@ -1,0 +1,40 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	"name": "炼镍高炉",
+	"description": "",
+	"outputItem": {
+	"item": "镍", "amount": 3
+	},
+	"itemCapacity": 20,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 80,
+	"power": 1,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			"DrawFlame"
+		]
+	},
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"items": {
+		"items": [
+	{ "item": "coal", "amount": 3 },
+	{ "item": "晶石", "amount": 2 }
+	]
+    }
+    },
+	"requirements": [
+	{ "item": "copper", "amount": 75 },
+	{ "item": "lead", "amount": 50 },
+	{ "item": "graphite", "amount": 20 },
+	{ "item": "简单机械", "amount": 2 }
+	],
+	"category": "crafting",
+	"research": "冶钢高炉"
+}

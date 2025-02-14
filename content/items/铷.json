@@ -1,0 +1,10 @@
+{
+    "type":"material",
+	"name": "铷",
+	"color":"7A797EFF",
+    "explosiveness":0,
+    "flammability":0,
+    "radioactivity":0,
+    "charge":3,
+    "research": "物品"
+}

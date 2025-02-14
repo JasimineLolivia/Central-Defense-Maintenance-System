@@ -1,0 +1,13 @@
+{
+    "type": "Wall",
+    "name": "Central Defense & Maintenance System",
+    "description": "是“怡和科技探索与生物技术公司[Jardine Technology Explore & Biotechnology Company]”的一套主动保卫及维护系统",
+    "health": 0,
+    "buildVisibility": "hidden",
+    "alwaysUnlocked": true,
+	"research": {
+		"root":true
+		},
+    "size": 1
+}
+

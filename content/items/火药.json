@@ -1,0 +1,14 @@
+{    
+"type":"material",
+    "name":"火药",
+    "description":"炸基地的不错选择",
+    "details":"",
+    "color":"114514",
+    "explosiveness":2,
+    "flammability":1,
+    "radioactivity":0,
+    "hardness":0,
+    "cost":1,
+    "alwaysUnlocked":false,
+    "research": "物品"
+}

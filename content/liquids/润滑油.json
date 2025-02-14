@@ -1,0 +1,12 @@
+{
+	"name": "润滑油",
+	"description": "",
+	"alwaysUnlocked":false,
+	"color": "FFB570FF",  
+	"flammability": 0,
+	"temperature": 0,
+	"heatCapacity": 1.4,
+	"viscosity": 0,
+	"explosiveness": 0,
+	"research": ""
+}

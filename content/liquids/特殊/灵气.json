@@ -1,0 +1,13 @@
+{
+	"name": "灵气",
+	"description": "",
+	"alwaysUnlocked":false,
+	"color": "D5E8FF",  
+	"gas": true,
+	"flammability": 0,
+	"temperature": 0,
+	"heatCapacity": 0,
+	"viscosity": 0,
+	"explosiveness": 2,
+	"research": "灵气试验机"
+}

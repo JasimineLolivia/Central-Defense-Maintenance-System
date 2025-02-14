@@ -1,0 +1,51 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	"name": "钢渣液冷凝炉",
+	"description": "将钢渣液冷凝并提纯，从而获得钢",
+	"outputItem": {
+	"item": "钢", "amount": 2
+	},
+	"itemCapacity": 20,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 80,
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "DrawRegion",
+                "suffix": "-bottom"
+            },
+            {
+				"type": "DrawLiquidTile",
+				"drawLiquid":"钢渣液"
+			},
+            {
+                "type": "DrawRegion",
+                "suffix": ""
+            },
+            "DrawDefault"
+        ]
+    },
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"power": 1.5,
+	"liquids": {
+		"liquids": [
+	{ "liquid": "钢渣液", "amount": 0.3 },
+    { "liquid": "冷凝剂", "amount": 0.4 }
+	]
+    }
+    },
+	"requirements": [
+	{ "item": "copper", "amount": 75 },
+	{ "item": "lead", "amount": 50 },
+	{ "item": "graphite", "amount": 20 },
+	{ "item": "简单机械", "amount": 2 }
+	],
+	"category": "crafting",
+	"research": "冷凝剂加工机"
+}

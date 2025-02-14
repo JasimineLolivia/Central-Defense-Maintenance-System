@@ -1,0 +1,15 @@
+{
+    "name":"汽油",
+    "description":"用于化学生产及发电",
+    "alwaysUnlocked": false,
+    "color":"F37500FF",
+    "barColor":"F37500FF",
+    "lightColor":"F37500FF",
+    "flammability":0.75,
+    "temperature":0.5,
+    "heatCapacity":0.5,
+    "viscosity":0.5,
+    "explosiveness":0.1,
+    "boilPoint":-1.8,
+    "research":"柴油"
+}

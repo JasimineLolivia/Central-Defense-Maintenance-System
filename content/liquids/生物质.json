@@ -1,0 +1,15 @@
+{
+    "name":"生物质",
+    "description":"应用于橡胶合成与生物科技",
+    "alwaysUnlocked": false,
+    "color":"E0730EFF",
+    "barColor":"E0730EFF",
+    "lightColor":"E0730EFF",
+    "flammability":0.75,
+    "temperature":0.5,
+    "heatCapacity":0.5,
+    "viscosity":0.5,
+    "explosiveness":0.1,
+    "boilPoint":-1.8,
+    "research":"液体-气体"
+}

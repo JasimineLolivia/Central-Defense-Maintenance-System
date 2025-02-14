@@ -1,0 +1,14 @@
+{
+    "type":"material",
+    "name":"钛合金",
+    "description":"用于军工",
+    "details":"多用途的好东西",
+    "color":"114514",
+    "explosiveness":0,
+    "flammability":0,
+    "radioactivity":0,
+    "hardness":0,
+    "cost":1,
+    "alwaysUnlocked":false,
+    "research": "铝合金"
+}

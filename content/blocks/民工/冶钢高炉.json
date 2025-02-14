@@ -1,0 +1,41 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	"name": "炼铁高炉",
+	"description": "控制碳含量，消除磷、硫、氧、氮等有害元素，保留或增加硅、锰、镍、铬等有益元素并调整元素之间的比例，从而获得钢。",
+	"outputItem": {
+	"item": "钢", "amount": 5
+	},
+	"outputLiquid": {"liquid": "钢渣液", "amount": 0.6},
+	"itemCapacity": 20,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 80,
+	"power": 1.2,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			"DrawFlame"
+		]
+	},
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"items": {
+		"items": [
+	{ "item": "coal", "amount": 3 },
+    { "item": "silicon", "amount": 2 },
+	{ "item": "晶石", "amount": 2 }
+	]
+    }
+    },
+	"requirements": [
+	{ "item": "copper", "amount": 75 },
+	{ "item": "lead", "amount": 50 },
+	{ "item": "graphite", "amount": 20 }
+	],
+	"category": "crafting",
+	"research": "工业"
+}

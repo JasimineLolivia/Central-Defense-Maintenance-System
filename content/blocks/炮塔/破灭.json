@@ -1,0 +1,50 @@
+{
+	"type":"ItemTurret",
+	"name":"破灭",
+    "description":"一种通过空气降温的高速机炮",
+	"size":3,
+	"health":1000,
+	"ammoPerShot":1,
+	"range":400,
+	"reload":5,
+	"inaccuracy":2,
+	"ammoUseEffect": "casing2",
+	"rotatespeed":1.6,
+	"maxAmmo":10,
+	"targetAir":false,
+	"targetGround":true,
+	"coolantMultiplier":2,
+	"heatColor":"#FF0000",
+	"ammoTypes":{
+		"copper": {
+		                "pierceCap":1,
+		    "reloadMultiplier":1,
+			"speed": 6,
+			"damage": 20,
+			"knockback":0,
+			"lifetime":60,
+			"width": 6,
+			"height": 7,
+			"ammoMultiplier":1,
+			"shootEffect": "shootBig" 	
+            				},
+        "lead":{
+            "reloadMultiplier":1,
+            "speed":6,
+            "damage":75,
+            "knockback":0.1,
+            "lifetime":80,
+           "width": 6,
+			"height": 7,
+			"ammoMultiplier":1,
+			"shootEffect": "shootBig"
+            }           				
+},
+	"requirements": [
+	 {"item":"铁镍合金","amount":15},
+	 {"item":"简单机械","amount":10},
+	 {"item":"copper","amount":35}
+	 ],
+	"category": "turret",
+	"research":"防御"
+}

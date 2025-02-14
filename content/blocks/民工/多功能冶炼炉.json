@@ -1,0 +1,22 @@
+{
+	"name": "多功能冶炼炉",
+	"description": "能够冶炼多种矿物",
+	"size": 4,
+	"health": 85,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"itemCapacity": 20,
+	"liquidCapacity": 300,
+	"power": 1.22,
+	"requirements": [
+        { "item": "copper", "amount": 75 },
+        { "item": "lead", "amount": 50 },
+        { "item": "silicon", "amount": 75 },
+        { "item": "graphite", "amount": 20 },
+        { "item": "精密机械", "amount": 10 },
+        { "item": "简单机械", "amount": 20 }
+	],
+	"category": "crafting",
+	"research": ""
+}

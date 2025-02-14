@@ -1,0 +1,51 @@
+{
+	"type":"ItemTurret",
+	"name":"破晓",
+    "description":"中期远程武器中的好东西",
+	"size":3,
+	"health":1350,
+	"ammoPerShot":1,
+	"range":560,
+	"reload":30,
+	"inaccuracy":2,
+    "ammoUseEffect": "casing2",
+	"rotatespeed":1.6,
+	"maxAmmo":10,
+	"targetAir":false,
+	"targetGround":true,
+	"coolantMultiplier":2,
+	"heatColor":"#FF0000",
+	"ammoTypes":{
+		"graphite": {
+			"pierceCap":1,
+		    "reloadMultiplier":1,
+			"speed": 6,
+			"damage": 112,
+			"knockback":0.1,
+			"lifetime":80,
+			"width": 6,
+			"height": 7,
+			"ammoMultiplier":1,
+			"shootEffect": "shootBig"
+		},
+        "thorium":{
+			"pierceCap":1,
+            "reloadMultiplier":1,
+            "speed":6,
+            "damage":234,
+            "knockback":0.1,
+            "lifetime":80,
+           "width": 6,
+			"height": 7,
+			"ammoMultiplier":1,
+			"shootEffect": "shootBig"
+            }
+},
+	"requirements": [
+	 {"item":"钛合金","amount":35},
+	 {"item":"铁镍合金","amount":40},
+	 {"time":"钢","amount":27} 
+	 ],
+	"category": "turret",
+	"research":"破灭"
+}

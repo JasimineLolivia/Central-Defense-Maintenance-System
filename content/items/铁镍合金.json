@@ -1,0 +1,10 @@
+{
+    "type":"material",
+	"name": "铁镍合金",
+	"color":"BCAEAEFF",
+    "explosiveness":0,
+    "flammability":0,
+    "radioactivity":0,
+    "charge":3,
+    "research": "铁"
+}

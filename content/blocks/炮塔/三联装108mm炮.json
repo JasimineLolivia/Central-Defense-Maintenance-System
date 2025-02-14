@@ -1,0 +1,95 @@
+{
+    "type":"ItemTurret",
+	"name":"三联装108mm炮",
+    "description":"",
+	"size":6,
+	"health":1450,
+	"ammoPerShot":1,
+	"range":480,
+	"reload":30,
+	"inaccuracy":2,
+	"ammoUseEffect": "casing2",
+	"rotatespeed":1.6,
+	"maxAmmo":10,
+	"targetAir":false,
+	"targetGround":true,
+	"coolantMultiplier":2,
+	"heatColor":"#FF0000",
+	"drawer": {
+	"type": "DrawMulti",
+	"drawers": [
+			{
+				"type": "DrawTurret",
+				"parts": [
+				    {
+						"type": "RegionPart",
+						"mirror": false,
+						"x": 0,
+						"y": 0,
+						"suffix": ""
+					},
+					{
+						"type": "RegionPart",
+						"mirror": false,
+						"x": 5.5,
+						"y": 33,
+						"suffix": "-管1",
+						"layer": 0,
+						"moveX": 0,
+						"moveY": 0
+					},
+					{
+						"type": "RegionPart",
+						"mirror": false,
+						"x": 0,
+						"y": 33,
+						"suffix": "-管2",
+						"layer": 0,
+						"moveX": 0,
+						"moveY": 0
+					},
+					{
+						"type": "RegionPart",
+						"mirror": false,
+						"x": -5.5,
+						"y": 33,
+						"suffix": "-管3",
+						"layer": 0,
+						"moveX": 0,
+						"moveY": 0
+					}
+					
+				]
+			}
+		]
+	},
+	"ammoTypes": {
+		"108mm炮弹":{
+			"speed": 9.5,
+			"damage": 226,
+			"knockback": 10,
+			"lifetime": 50.76,
+			"width": 3,
+			"height": 10,
+			"ammoMultiplier": 2,
+			"shootEffect": "shootBig"
+		}
+	},
+    "shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     5.5,33,0,
+		     -5.5,33,0,
+		     0,33,0
+		  ]
+	},
+	"requirements": [
+	"钢/1911",
+	"lead/811",
+	"铁镍合金/433"
+	],
+	"category": "turret",
+	"research": "防御"
+}

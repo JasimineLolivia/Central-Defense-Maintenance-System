@@ -1,0 +1,14 @@
+{
+    "name": "钢墙",
+    "type": "Wall",
+    "health": 480,
+    "description":"轻便但防御较高",
+    "size": 1,
+    "absorbLasers":false,
+    "requirements": [
+        "钢/6"
+    ],
+    "researchCostMultiplier": 1,
+    "category": "defense",
+    "research": "CDMS"
+}

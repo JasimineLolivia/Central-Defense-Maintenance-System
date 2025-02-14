@@ -1,0 +1,12 @@
+{
+	"name": "钢渣液",
+	"description": "产钢过程中的副产物",
+	"alwaysUnlocked":false,
+	"color": "FFB570FF",  
+	"flammability": 0,
+	"temperature": 0,
+	"heatCapacity": -1.2,
+	"viscosity": 0,
+	"explosiveness": 0,
+	"research": ""
+}

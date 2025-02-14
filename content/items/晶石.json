@@ -1,0 +1,10 @@
+{
+    "type":"material",
+	"name": "晶石",
+	"color":"5351D3FF",
+    "explosiveness":0.1,
+    "flammability":0.1,
+    "radioactivity":0.1,
+    "charge":3,
+    "research": "物品"
+}

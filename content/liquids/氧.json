@@ -1,0 +1,13 @@
+{
+	"name": "氧",
+	"description": "",
+	"alwaysUnlocked":false,
+	"color": "B8FFFD",  
+	"gas": true,
+	"flammability": 0.8,
+	"temperature": 0.5,
+	"heatCapacity": 0,
+	"viscosity": 0,
+	"explosiveness": 0.8,
+	"research": ""
+}

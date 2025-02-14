@@ -1,0 +1,44 @@
+{
+	"type":"GenericCrafter",
+	"name":"矿机",
+	"outputItem": {
+	"item": "晶石", "amount": 1
+	},
+	"details":"简而言之，挖晶石",
+	"craftEffect": "smeltsmoke",
+	"itemCapacity":20,	
+    "generateEffect": "generatespark",
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawRegion",
+				"suffix": "-2",
+				"rotateSpeed":4,
+				"rotation":45
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-1"
+			}
+		]
+	},
+	"updateEffect":"pulverizeSmall",
+	"group":"drills",
+	"health":160,
+	"craftTime":160,
+	"placeableLiquid":true,
+	"requiresWater":false,
+	"hasItems":true,
+	"hasLiquids":false,
+	"hasPower":false,
+	"description":"挖掘到地下采集地下矿物，不需要电力",
+	"size":3,
+	"requirements":[
+		"copper/46",
+		"lead/12"
+	],
+	"research":"采集",
+	"category":"production"
+}

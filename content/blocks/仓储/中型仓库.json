@@ -1,0 +1,13 @@
+{
+    "requirements": [
+        "copper/400",
+        "lead/300"
+    ],
+    "type": "StorageBlock",
+    "name": "中型仓库",
+    "size": 3,
+    "health": 980,
+    "itemCapacity": 2300,
+    "research": "小型仓库"
+    "category": "effect"
+}

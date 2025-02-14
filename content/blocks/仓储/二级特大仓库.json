@@ -1,0 +1,13 @@
+{
+    "requirements": [
+        "copper/3000",
+        "lead/1200"
+    ],
+    "type": "StorageBlock",
+    "name": "二级特大型仓库",
+    "size": 6,
+    "health": 4380,
+    "itemCapacity": 10000,
+    "research": "一级特大仓库"
+    "category": "effect"
+}

@@ -1,0 +1,42 @@
+{
+	"type": "ConsumeGenerator",
+	"name": "铷反应堆", 
+	"description": "利用铷与水的剧烈反应发电[架空设定]",
+	"size": 3,
+	"health": 1500,
+	"liquidCapacity": 30,
+	"itemCapacity": 25,	
+	"hasItems": true,
+	"hasLiquids": true,
+	"outputsPower": true,
+	"powerProduction": 20,
+	"itemDuration": 300,
+	"heating": 0.02,
+	"lightColor": "FFFFFF",
+	"explosionShake": 9,
+	"explosionShakeDuration": 120,
+	"explosionRadius": 35,
+	"explosionDamage": 9000,
+	"explodeSound": "DBZ1",
+	"consumes": {
+		"items": {
+			"items": [
+		{ "item": "铷", "amount": 1 }
+		]
+		},
+		"liquids": {
+			"liquids": [
+		{ "liquid": "冷凝剂", "amount": 0.2 }
+		]
+		}		
+	        },
+	"requirements": [
+        { "item": "copper", "amount": 75 },
+        { "item": "钢", "amount": 75 },
+        { "item": "titanium", "amount": 75 },        
+        { "item": "lead", "amount": 50 },
+        { "item": "graphite", "amount": 20 }      
+	],
+	"category": "power",
+	"research": ""
+}

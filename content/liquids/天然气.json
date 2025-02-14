@@ -1,0 +1,13 @@
+{
+	"name": "天然气",
+	"description": "一种天然蕴藏于地层中的烃类和非烃类气体的混合物。",
+	"alwaysUnlocked":false,
+	"color": "D5E8FF",  
+	"gas": true,
+	"flammability": 1.5,
+	"temperature": 0.5,
+	"heatCapacity": 0,
+	"viscosity": 0,
+	"explosiveness": 2,
+	"research": "气体"
+}

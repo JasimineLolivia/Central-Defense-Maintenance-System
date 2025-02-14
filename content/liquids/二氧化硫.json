@@ -1,0 +1,13 @@
+{
+	"name": "二氧化硫",
+	"description": "",
+	"alwaysUnlocked":false,
+	"color": "FF9166FF",  
+	"gas": true,
+	"flammability": 0.8,
+	"temperature": 0.5,
+	"heatCapacity": 0,
+	"viscosity": 0,
+	"explosiveness": 0.8,
+	"research": ""
+}

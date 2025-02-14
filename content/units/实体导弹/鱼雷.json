@@ -1,0 +1,31 @@
+{
+    "type": "missile",
+	"template": "MissileUnitType",	
+	"name":"鱼雷",
+	"maxRange": 6,
+	"speed": 7,
+	"rotateSpeed": 0,
+	"engineOffset": 8,
+	"lifetime":100,
+	"health":100,	
+		"weapons":[{
+		"shootCone": 360,
+		"mirror": false,
+		"shake": 6,
+		"shootOnDeath": true,
+		"shootSound": "plasmaboom",		
+		"bullet":{
+		"type": "ExplosionBulletType",
+		"splashDamage": 100,
+		"splashDamageRadius": 50,
+		"buildingDamageMultiplier": 0.77,
+		"shootEffect": {
+					"type": "MultiEffect",
+					"effects": [
+						"titanExplosion"
+						]
+						}
+			}
+			}
+			]
+			}

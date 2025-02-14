@@ -1,0 +1,52 @@
+{
+"type": "GenericCrafter",
+"health": 360,
+"name": "橡胶合成机",
+"description": "",
+"outputItem": {
+"item": "合成橡胶", "amount": 2
+},
+"itemCapacity": 20,
+"size": 3,
+"hasPower": true,
+"hasLiquids": true,
+"hasItems": true,
+"craftTime": 80,
+"craftEffect": "smeltsmoke",
+"drawer": {
+"type": "DrawMulti",
+"drawers": [
+{
+"type": "DrawRegion",
+"suffix": "-bottom"
+},
+{
+"type": "DrawLiquidTile",
+"drawLiquid":"oil"
+},
+{
+"type": "DrawRegion",
+"suffix": ""
+},
+"DrawDefault"
+]
+},
+"consumes": {
+"power": 1.5,
+"liquids": {
+    "liquids": [
+{ "liquid": "oil", "amount": 0.3 },
+{ "liquid": "天然气", "amount": 0.4 }
+]
+}
+},
+"requirements": [
+{ "item": "copper", "amount": 75 },
+{ "item": "lead", "amount": 50 },
+{ "item": "silicon", "amount": 50 },
+{ "item": "graphite", "amount": 20 },
+{ "item": "简单机械", "amount": 2 }
+],
+"category": "crafting",
+"research": "工业"
+}

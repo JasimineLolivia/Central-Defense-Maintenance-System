@@ -1,0 +1,44 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	"name":"息钢冶炼炉",
+    "description": "通过特殊手段获得特种息钢，此钢能产生一定升力，常用于制造空天战舰",
+	"outputItem": {
+	"item": "特种息钢", "amount": 5
+	},
+	"itemCapacity": 20,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 80,
+	"power": 2,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			"DrawFlame"
+		]
+	},
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"power": 1.5,
+	"items": {
+		"items": [
+	{ "item": "coal", "amount": 3 },
+	{ "item": "钢", "amount": 3 },
+    { "item": "silicon", "amount": 2 },
+	{ "item": "晶石", "amount": 2 }
+	]
+    }
+    },
+	"requirements": [
+	{ "item": "copper", "amount": 75 },
+	{ "item": "lead", "amount": 50 },
+	{ "item": "graphite", "amount": 20 },
+	{ "item": "钢", "amount": 59 },
+	{ "item": "简单机械", "amount": 2 }
+	],
+	"category": "crafting",
+	"research": "钢冶炼炉"
+}

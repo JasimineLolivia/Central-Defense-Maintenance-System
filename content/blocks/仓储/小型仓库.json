@@ -1,0 +1,13 @@
+{
+    "requirements": [
+        "copper/200",
+        "lead/200"
+    ],
+    "type": "StorageBlock",
+    "name": "小型仓库",
+    "size": 2,
+    "health": 380,
+    "itemCapacity": 1200,
+    "research": "CDMS"
+    "category": "effect"
+}

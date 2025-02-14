@@ -1,0 +1,264 @@
+{
+	"type": "flying",
+    "name": "玉衡",
+	"description": "玉衡“级航空战列巡洋舰 通用型\n搭载了四座三联装仙晶炮，六座近防机枪，两座三联装鱼雷",
+	"details":"战巡，战巡，作者最爱战巡",
+	"speed": 12.4,
+	"drag": 0.05,
+	"accel": 0.1,	
+	"rotateSpeed": 4,
+	"ammoType": {
+		"type": "PowerAmmoType",
+		"totalPower": 800
+	},
+    "abilities": [
+        {
+    "type":"ForceFieldAbility",
+    "radius": 120,
+    "regen": 20.0,
+    "max": 3000,
+    "cooldown": 6000
+    }
+    ],
+	"ammoCapacity": 120,
+	"hitSize": 15,
+	"flying": true,
+	"faceTarget": true,
+	"drawMinimap": false,
+	"health": 700,
+	"armor": 3,
+	"engineOffset": 10,
+	"engineSize": 4,
+	"itemCapacity": 0,
+	"research": "",
+	"weapons": [
+    {
+		"name":"玉衡-自卫炮-1",
+	    "x":20,"y":10,
+	    "mirror":false,
+	    "reload":20,
+	    "rotate": true,
+	    "rotateSpeed":12,
+	    "shootEffect":"shootSmall",
+	    "shootSound":"shoot",
+	    "bullet":
+		{
+	    "type":"ArtilleryBulletType",
+	    "damage": 20,
+	    "frontColor":"FFDE00",
+	    "backColor":"FF4E00",
+	    "width": 2,
+	    "height": 10,
+	    "speed": 10,
+	    "lifetime":160,
+	    "reloadTime": 160,
+	    "buildingDamageMultiplier":0.77
+	},
+	"shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     1.5,3,0,
+		     -1.5,3,0
+		  ]
+	}
+	},
+	{
+		"name":"玉衡-自卫炮-2",
+	    "x":-20,"y":10,
+	    "mirror":false,
+	    "reload":20,
+	    "rotate": true,
+	    "rotateSpeed":12,
+	    "shootEffect":"shootSmall",
+	    "shootSound":"shoot",
+	    "bullet":
+		{
+	    "type":"ArtilleryBulletType",
+	    "damage": 20,
+	    "frontColor":"FFDE00",
+	    "backColor":"FF4E00",
+	    "width": 2,
+	    "height": 10,
+	    "speed": 10,
+	    "lifetime":160,
+	    "reloadTime": 160,
+	    "buildingDamageMultiplier":0.77
+	},
+	"shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     1.5,3,0,
+		     -1.5,3,0
+		  ]
+	}
+	},
+	{
+		"name":"玉衡-自卫炮-3",
+	    "x":20,"y":0,
+	    "mirror":false,
+	    "reload":20,
+	    "rotate": true,
+	    "rotateSpeed":12,
+	    "shootEffect":"shootSmall",
+	    "shootSound":"shoot",
+	    "bullet":
+		{
+	    "type":"ArtilleryBulletType",
+	    "damage": 20,
+	    "frontColor":"FFDE00",
+	    "backColor":"FF4E00",
+	    "width": 2,
+	    "height": 10,
+	    "speed": 10,
+	    "lifetime":160,
+	    "reloadTime": 160,
+	    "buildingDamageMultiplier":0.77
+	},
+	"shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     1.5,3,0,
+		     -1.5,3,0
+		  ]
+	}
+	},
+	{
+		"name":"玉衡-自卫炮-4",
+	    "x":-20,"y":0,
+	    "mirror":false,
+	    "reload":20,
+	    "rotate": true,
+	    "rotateSpeed":12,
+	    "shootEffect":"shootSmall",
+	    "shootSound":"shoot",
+	    "bullet":
+		{
+	    "type":"ArtilleryBulletType",
+	    "damage": 20,
+	    "frontColor":"FFDE00",
+	    "backColor":"FF4E00",
+	    "width": 2,
+	    "height": 10,
+	    "speed": 10,
+	    "lifetime":160,
+	    "reloadTime": 160,
+	    "buildingDamageMultiplier":0.77
+	},
+	"shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     1.5,3,0,
+		     -1.5,3,0
+		  ]
+	}
+	},
+	{
+		"name":"玉衡-自卫炮-5",
+	    "x":20,"y":-10,
+	    "mirror":false,
+	    "reload":20,
+	    "rotate": true,
+	    "rotateSpeed":12,
+	    "shootEffect":"shootSmall",
+	    "shootSound":"shoot",
+	    "bullet":
+		{
+	    "type":"ArtilleryBulletType",
+	    "damage": 20,
+	    "frontColor":"FFDE00",
+	    "backColor":"FF4E00",
+	    "width": 2,
+	    "height": 10,
+	    "speed": 10,
+	    "lifetime":160,
+	    "reloadTime": 160,
+	    "buildingDamageMultiplier":0.77
+	},
+	"shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     1.5,3,0,
+		     -1.5,3,0
+		  ]
+	}
+	},
+	{
+		"name":"玉衡-自卫炮-6",
+	    "x":-20,"y":-10,
+	    "mirror":false,
+	    "reload":20,
+	    "rotate": true,
+	    "rotateSpeed":12,
+	    "shootEffect":"shootSmall",
+	    "shootSound":"shoot",
+	    "bullet":
+		{
+	    "type":"ArtilleryBulletType",
+	    "damage": 20,
+	    "frontColor":"FFDE00",
+	    "backColor":"FF4E00",
+	    "width": 2,
+	    "height": 10,
+	    "speed": 10,
+	    "lifetime":160,
+	    "reloadTime": 160,
+	    "buildingDamageMultiplier":0.77
+	},
+	"shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     1.5,3,0,
+		     -1.5,3,0
+		  ]
+	}
+	},
+	{
+		"name": "玉衡-主炮1",
+		"reload": 10,
+		"recoil": 1,
+		"x": 0,
+		"y": 40,
+		"rotate": true,
+		"rotateSpeed": 1,
+		"mirror": false,
+		"inaccuracy": 0.5,
+		"ejectEffect": "casing1",
+		"shootSound": "shootBig",
+		"alternate": false,
+		"bullet": {
+			"damage": 256,
+			"buildingDamageMultiplier": 1.7,
+			"splashDamageRadius": 30,
+			"splashDamage": 50,
+			"speed": 10,
+			"lifetime": 80,
+			"width": 2,
+			"height": 10,
+			"hitEffect": "blastExplosion",
+			"despawnEffect": "blastExplosion"
+		},
+		 "shoot":{
+		"shots":2,
+		"shotDelay":8,
+		"type":"ShootBarrel",
+		"barrels":[
+		 -4,15,0,
+		 0,15,0,
+		 4,15,0
+	  ]
+}
+}
+]
+}

@@ -1,0 +1,12 @@
+{
+	"name": "冷凝剂",
+	"description": "作用等同于冰冻夜，但略优于它",
+	"alwaysUnlocked":false,
+	"color": "5351D3FF",  
+	"flammability": 0,
+	"temperature": 0,
+	"heatCapacity": 1.4,
+	"viscosity": 0,
+	"explosiveness": 0,
+	"research": ""
+}

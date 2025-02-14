@@ -1,0 +1,32 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	"name": "简单机械加工机",
+	"description": "",
+	"outputItem": {
+	"item": "简单机械", "amount": 4
+	},
+	"itemCapacity": 20,
+	"size": 2,
+	"hasPower": false,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"items": {
+		"items": [
+	{ "item": "copper", "amount": 3 },
+	{ "item": "lead", "amount": 3 },
+	{ "item": "钢", "amount": 2 }
+	]
+    }
+    },
+	"requirements": [
+	{ "item": "copper", "amount": 75 },
+	{ "item": "lead", "amount": 50 },
+	{ "item": "graphite", "amount": 20 }
+	],
+	"category": "crafting",
+	"research": "工业"
+}

@@ -1,0 +1,12 @@
+{
+	"name": "液氢",
+	"description": "一种不错的新型能源",
+	"alwaysUnlocked":false,
+	"color": "5351D3FF",  
+	"flammability": 0,
+	"temperature": 0,
+	"heatCapacity": 1,
+	"viscosity": 0,
+	"explosiveness": 0,
+	"research": ""
+}
