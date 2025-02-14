@@ -1,0 +1,706 @@
+{
+	"type": "payload",
+	"name": "失谐",
+	"pickupUnits":true,
+	"payloadCapacity":2304,
+	"rotateSpeed":1.1,
+	"speed":1.48,
+	"drag":0.07,"accel":0.09,
+	"immunities":[],
+	"targetFlags": [],
+	"ammoCapacity": 1200,
+	"ammoType":{
+		"type":"PowerAmmoType",
+		"totalPower":10000},
+	"flying": true,
+	"hitSize": 88,
+	"health": 180000,
+	"armor":35,
+	"range":240,
+	"engineOffset":70,
+	"engineSize": 17,
+	"trailLength":70,
+	"faceTarget": false,
+	"circleTarget":true,
+	"research":"空5",
+	"weapons": [
+		{
+			"name": "失谐-主炮1",
+			"reload": 10,
+			"recoil": 1,
+			"x": 0,
+			"y": 40,
+			"rotate": true,
+			"rotateSpeed": 1,
+			"mirror": false,
+			"inaccuracy": 0.5,
+			"ejectEffect": "casing1",
+			"shootSound": "shootBig",
+			"alternate": false,
+			"bullet": {
+			    "damage": 256,
+			    "buildingDamageMultiplier": 1.7,
+			    "splashDamageRadius": 30,
+		        "splashDamage": 50,
+				"speed": 10,
+				"lifetime": 80,
+				"width": 8,
+				"height": 10,
+				"hitEffect": "blastExplosion",
+		        "despawnEffect": "blastExplosion"
+			},
+		     "shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     -4,15,0,
+		     0,15,0,
+		     4,15,0
+		  ]
+}
+},
+    	{
+			"name": "失谐-主炮2",
+			"reload": 10,
+			"recoil": 1,
+			"x": 0,
+			"y": 15,
+			"rotate": true,
+			"rotateSpeed": 1,
+			"mirror": false,
+			"inaccuracy": 0.5,
+			"ejectEffect": "casing1",
+			"shootSound": "shootBig",
+			"alternate": false,
+			"bullet": {
+			    "damage": 256,
+			    "buildingDamageMultiplier": 1.7,
+			    "splashDamageRadius": 30,
+		        "splashDamage": 50,
+				"speed": 10,
+				"lifetime": 80,
+				"width": 8,
+				"height": 10,
+				"hitEffect": "blastExplosion",
+		        "despawnEffect": "blastExplosion"
+			},
+		     "shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     -4,15,0,
+		     4,15,0
+		]
+}
+},
+		{
+			"name": "失谐-主炮3",
+			"reload": 10,
+			"recoil": 1,
+			"x": 0,
+			"y": -35,
+			"rotate": true,
+			"rotateSpeed": 1,
+			"mirror": false,
+			"inaccuracy": 0.5,
+			"ejectEffect": "casing1",
+			"shootSound": "shootBig",
+			"alternate": false,
+			"bullet": {
+			    "damage": 256,
+			    "buildingDamageMultiplier": 1.7,
+			    "splashDamageRadius": 30,
+		        "splashDamage": 50,
+				"speed": 10,
+				"lifetime": 80,
+				"width": 8,
+				"height": 10,
+				"hitEffect": "blastExplosion",
+		        "despawnEffect": "blastExplosion"
+			},
+		     "shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     -4,15,0,
+		     4,15,0
+		]
+}
+},
+		{
+			"name": "失谐-主炮4",
+			"reload": 10,
+			"recoil": 1,
+			"x": 0,
+			"y": -55,
+			"rotate": true,
+			"rotateSpeed": 1,
+			"mirror": false,
+			"inaccuracy": 0.5,
+			"ejectEffect": "casing1",
+			"shootSound": "shootBig",
+			"alternate": false,
+			"bullet": {
+			    "damage": 256,
+			    "buildingDamageMultiplier": 1.7,
+			    "splashDamageRadius": 30,
+		        "splashDamage": 50,
+				"speed": 10,
+				"lifetime": 80,
+				"width": 8,
+				"height": 10,
+				"hitEffect": "blastExplosion",
+		        "despawnEffect": "blastExplosion"
+			},
+		     "shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     -4,15,0,
+		     4,15,0
+		  ]
+	}
+},
+		{
+			"name": "失谐-副炮1",
+			"reload": 10,
+			"recoil": 1,
+			"x": 10,
+			"y": 15,
+			"rotate": true,
+			"rotateSpeed": 1,
+			"mirror": false,
+			"inaccuracy": 0.5,
+			"ejectEffect": "casing1",
+			"shootSound": "shootBig",
+			"alternate": false,
+			"bullet": {
+			    "damage": 16,
+			    "buildingDamageMultiplier": 1.7,
+			    "splashDamageRadius": 30,
+		        "splashDamage": 50,
+				"speed": 10,
+				"lifetime": 80,
+				"width": 8,
+				"height": 10,
+				"hitEffect": "blastExplosion",
+		        "despawnEffect": "blastExplosion"
+			},
+		     "shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     -4,15,0,
+		     4,15,0
+		  ]
+	}
+},
+		{
+			"name": "失谐-副炮2",
+			"reload": 10,
+			"recoil": 1,
+			"x": 10,
+			"y": 10,
+			"rotate": true,
+			"rotateSpeed": 1,
+			"mirror": false,
+			"inaccuracy": 0.5,
+			"ejectEffect": "casing1",
+			"shootSound": "shootBig",
+			"alternate": false,
+			"bullet": {
+			    "damage": 16,
+			    "buildingDamageMultiplier": 1.7,
+			    "splashDamageRadius": 30,
+		        "splashDamage": 50,
+				"speed": 10,
+				"lifetime": 80,
+				"width": 8,
+				"height": 10,
+				"hitEffect": "blastExplosion",
+		        "despawnEffect": "blastExplosion"
+			},
+		     "shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     -4,15,0,
+		     4,15,0
+		  ]
+	}
+},
+		{
+			"name": "失谐-副炮3",
+			"reload": 10,
+			"recoil": 1,
+			"x": 10,
+			"y": 5,
+			"rotate": true,
+			"rotateSpeed": 1,
+			"mirror": false,
+			"inaccuracy": 0.5,
+			"ejectEffect": "casing1",
+			"shootSound": "shootBig",
+			"alternate": false,
+			"bullet": {
+			    "damage": 16,
+			    "buildingDamageMultiplier": 1.7,
+			    "splashDamageRadius": 30,
+		        "splashDamage": 50,
+				"speed": 10,
+				"lifetime": 80,
+				"width": 8,
+				"height": 10,
+				"hitEffect": "blastExplosion",
+		        "despawnEffect": "blastExplosion"
+			},
+		     "shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     -4,15,0,
+		     4,15,0
+		  ]
+	}
+},
+		{
+			"name": "失谐-副炮4",
+			"reload": 10,
+			"recoil": 1,
+			"x": 10,
+			"y": -5,
+			"rotate": true,
+			"rotateSpeed": 1,
+			"mirror": false,
+			"inaccuracy": 0.5,
+			"ejectEffect": "casing1",
+			"shootSound": "shootBig",
+			"alternate": false,
+			"bullet": {
+			    "damage": 16,
+			    "buildingDamageMultiplier": 1.7,
+			    "splashDamageRadius": 30,
+		        "splashDamage": 50,
+				"speed": 10,
+				"lifetime": 80,
+				"width": 8,
+				"height": 10,
+				"hitEffect": "blastExplosion",
+		        "despawnEffect": "blastExplosion"
+			},
+		     "shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     -4,15,0,
+		     4,15,0
+		  ]
+	}
+},
+		{
+			"name": "失谐-副炮5",
+			"reload": 10,
+			"recoil": 1,
+			"x": 10,
+			"y": -10,
+			"rotate": true,
+			"rotateSpeed": 1,
+			"mirror": false,
+			"inaccuracy": 0.5,
+			"ejectEffect": "casing1",
+			"shootSound": "shootBig",
+			"alternate": false,
+			"bullet": {
+			    "damage": 16,
+			    "buildingDamageMultiplier": 1.7,
+			    "splashDamageRadius": 30,
+		        "splashDamage": 50,
+				"speed": 10,
+				"lifetime": 80,
+				"width": 8,
+				"height": 10,
+				"hitEffect": "blastExplosion",
+		        "despawnEffect": "blastExplosion"
+			},
+		     "shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     -4,15,0,
+		     4,15,0
+		  ]
+	}
+},
+		{
+			"name": "失谐-副炮6",
+			"reload": 10,
+			"recoil": 1,
+			"x": 10,
+			"y": -15,
+			"rotate": true,
+			"rotateSpeed": 1,
+			"mirror": false,
+			"inaccuracy": 0.5,
+			"ejectEffect": "casing1",
+			"shootSound": "shootBig",
+			"alternate": false,
+			"bullet": {
+			    "damage": 16,
+			    "buildingDamageMultiplier": 1.7,
+			    "splashDamageRadius": 30,
+		        "splashDamage": 50,
+				"speed": 10,
+				"lifetime": 80,
+				"width": 8,
+				"height": 10,
+				"hitEffect": "blastExplosion",
+		        "despawnEffect": "blastExplosion"
+			},
+		     "shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     -4,15,0,
+		     4,15,0
+		  ]
+	}
+},
+		{
+			"name": "失谐-副炮7",
+			"reload": 10,
+			"recoil": 1,
+			"x": -10,
+			"y": 15,
+			"rotate": true,
+			"rotateSpeed": 1,
+			"mirror": false,
+			"inaccuracy": 0.5,
+			"ejectEffect": "casing1",
+			"shootSound": "shootBig",
+			"alternate": false,
+			"bullet": {
+			    "damage": 16,
+			    "buildingDamageMultiplier": 1.7,
+			    "splashDamageRadius": 30,
+		        "splashDamage": 50,
+				"speed": 10,
+				"lifetime": 80,
+				"width": 8,
+				"height": 10,
+				"hitEffect": "blastExplosion",
+		        "despawnEffect": "blastExplosion"
+			},
+		     "shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     -4,15,0,
+		     4,15,0
+		  ]
+	}
+},
+		{
+			"name": "失谐-副炮8",
+			"reload": 10,
+			"recoil": 1,
+			"x": -10,
+			"y": 10,
+			"rotate": true,
+			"rotateSpeed": 1,
+			"mirror": false,
+			"inaccuracy": 0.5,
+			"ejectEffect": "casing1",
+			"shootSound": "shootBig",
+			"alternate": false,
+			"bullet": {
+			    "damage": 16,
+			    "buildingDamageMultiplier": 1.7,
+			    "splashDamageRadius": 30,
+		        "splashDamage": 50,
+				"speed": 10,
+				"lifetime": 80,
+				"width": 8,
+				"height": 10,
+				"hitEffect": "blastExplosion",
+		        "despawnEffect": "blastExplosion"
+			},
+		     "shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     -4,15,0,
+		     4,15,0
+		  ]
+	}
+},
+		{
+			"name": "失谐-副炮9",
+			"reload": 10,
+			"recoil": 1,
+			"x": -10,
+			"y": 5,
+			"rotate": true,
+			"rotateSpeed": 1,
+			"mirror": false,
+			"inaccuracy": 0.5,
+			"ejectEffect": "casing1",
+			"shootSound": "shootBig",
+			"alternate": false,
+			"bullet": {
+			    "damage": 16,
+			    "buildingDamageMultiplier": 1.7,
+			    "splashDamageRadius": 30,
+		        "splashDamage": 50,
+				"speed": 10,
+				"lifetime": 80,
+				"width": 8,
+				"height": 10,
+				"hitEffect": "blastExplosion",
+		        "despawnEffect": "blastExplosion"
+			},
+		     "shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     -4,15,0,
+		     4,15,0
+		  ]
+	}
+},
+		{
+			"name": "失谐-副炮10",
+			"reload": 10,
+			"recoil": 1,
+			"x": -10,
+			"y": -5,
+			"rotate": true,
+			"rotateSpeed": 1,
+			"mirror": false,
+			"inaccuracy": 0.5,
+			"ejectEffect": "casing1",
+			"shootSound": "shootBig",
+			"alternate": false,
+			"bullet": {
+			    "damage": 16,
+			    "buildingDamageMultiplier": 1.7,
+			    "splashDamageRadius": 30,
+		        "splashDamage": 50,
+				"speed": 10,
+				"lifetime": 80,
+				"width": 8,
+				"height": 10,
+				"hitEffect": "blastExplosion",
+		        "despawnEffect": "blastExplosion"
+			},
+		     "shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     -4,15,0,
+		     4,15,0
+		  ]
+	}
+},
+		{
+			"name": "失谐-副炮11",
+			"reload": 10,
+			"recoil": 1,
+			"x": -10,
+			"y": -10,
+			"rotate": true,
+			"rotateSpeed": 1,
+			"mirror": false,
+			"inaccuracy": 0.5,
+			"ejectEffect": "casing1",
+			"shootSound": "shootBig",
+			"alternate": false,
+			"bullet": {
+			    "damage": 16,
+			    "buildingDamageMultiplier": 1.7,
+			    "splashDamageRadius": 30,
+		        "splashDamage": 50,
+				"speed": 10,
+				"lifetime": 80,
+				"width": 8,
+				"height": 10,
+				"hitEffect": "blastExplosion",
+		        "despawnEffect": "blastExplosion"
+			},
+		     "shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     -4,15,0,
+		     4,15,0
+		  ]
+	}
+},
+		{
+			"name": "失谐-副炮12",
+			"reload": 10,
+			"recoil": 1,
+			"x": -10,
+			"y": -15,
+			"rotate": true,
+			"rotateSpeed": 1,
+			"mirror": false,
+			"inaccuracy": 0.5,
+			"ejectEffect": "casing1",
+			"shootSound": "shootBig",
+			"alternate": false,
+			"bullet": {
+			    "damage": 16,
+			    "buildingDamageMultiplier": 1.7,
+			    "splashDamageRadius": 30,
+		        "splashDamage": 50,
+				"speed": 10,
+				"lifetime": 80,
+				"width": 8,
+				"height": 10,
+				"hitEffect": "blastExplosion",
+		        "despawnEffect": "blastExplosion"
+			},
+		     "shoot":{
+		    "shots":2,
+		    "shotDelay":8,
+		    "type":"ShootBarrel",
+		    "barrels":[
+		     -4,15,0,
+		     4,15,0
+		  ]
+	}
+},
+{
+            "name": "失谐-导弹1",
+            "mirror": true,
+            "x": 10,
+            "y": -30,
+            "reload": 120,
+            "recoil": 1,
+            "shootSound": "missileSmall",
+            "inaccuracy": 0,
+            "shoot": {
+		"type": "ShootSpread",
+		"spread":120,
+		"shots": 1
+	},
+            "bullet":{
+      "speed": 0,
+      "spawnUnit": "长辑导弹",
+      "instantDisappear": true,
+      "reloadMultipler": 0.9,
+      "ammoMultiplier": 1,
+      "buildingDamageMultiplier": 0.7
+    }
+    },
+{
+            "name": "失谐-导弹2",
+            "mirror": true,
+            "x": -10,
+            "y": -30,
+            "reload": 120,
+            "recoil": 1,
+            "shootSound": "missileSmall",
+            "inaccuracy": 0,
+            "shoot": {
+		"type": "ShootSpread",
+		"spread":120,
+		"shots": 1
+	},
+            "bullet":{
+      "speed": 0,
+      "spawnUnit": "长辑导弹",
+      "instantDisappear": true,
+      "reloadMultipler": 0.9,
+      "ammoMultiplier": 1,
+      "buildingDamageMultiplier": 0.7
+    }
+    },
+{
+            "name": "失谐-鱼雷1",
+            "mirror": true,
+            "x": 5,
+            "y": 30,
+            "reload": 120,
+            "recoil": 1,
+            "shootSound": "missileSmall",
+            "inaccuracy": 0,
+            "shoot": {
+		"type": "ShootSpread",
+		"spread":120,
+		"shots": 1
+	},
+            "bullet":{
+      "speed": 0,
+      "spawnUnit": "鱼雷",
+      "instantDisappear": true,
+      "reloadMultipler": 0.9,
+      "ammoMultiplier": 1,
+      "buildingDamageMultiplier": 0.7
+    }
+    },
+{
+            "name": "失谐-鱼雷2",
+            "mirror": true,
+            "x": -5,
+            "y": 30,
+            "reload": 120,
+            "recoil": 1,
+            "shootSound": "missileSmall",
+            "inaccuracy": 0,
+            "shoot": {
+		"type": "ShootSpread",
+		"spread":120,
+		"shots": 1
+	},
+            "bullet":{
+      "speed": 0,
+      "spawnUnit": "鱼雷",
+      "instantDisappear": true,
+      "reloadMultipler": 0.9,
+      "ammoMultiplier": 1,
+      "buildingDamageMultiplier": 0.7
+    }
+    },
+		{
+			"name": "失谐-近防1",
+			"reload": 100,
+			"recoil": 1,
+			"x": 0,
+			"y": -10,
+			"rotate": true,
+			"rotateSpeed": 1,
+			"mirror": false,
+			"inaccuracy": 0.5,
+			"ejectEffect": "casing1",
+			"shootSound": "shootBig",
+			"alternate": false,
+			"bullet": {
+			    "damage": 6,
+			    "buildingDamageMultiplier": 1.7,
+			    "splashDamageRadius": 30,
+		        "splashDamage": 50,
+				"speed": 100,
+				"lifetime": 10,
+				"width": 8,
+				"height": 10,
+				"hitEffect": "blastExplosion",
+		        "despawnEffect": "blastExplosion"
+			}}
+]
+}

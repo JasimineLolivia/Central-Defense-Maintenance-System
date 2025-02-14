@@ -1,0 +1,29 @@
+{
+	"type": "UnitAssembler",
+	"name": "造船坞", 
+	"description": "",
+	"health": 5200,
+	"size": 5,
+	"liquidCapacity": 90,
+	"consumes": {
+		"power": 17
+	},
+	"areaSize": 25,
+	"plans": [
+		{
+			"unit": "失谐",
+			"time": 4000,
+			"requirements": [
+				"dagger/4",
+				"salvo/2",
+				"cyclone/1",
+				"特种息钢块/10"
+			]
+		}	
+	],
+	"droneType": "assembly-drone",
+	"requirements": [
+	],
+	"research":"",
+	"category": "units"
+}
